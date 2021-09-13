@@ -1,0 +1,143 @@
+//movenment script
+public class MoveMent : MonoBehaviour
+{
+    Rigidbody2D rigidbody2d;//find rigidbody
+    //varibles
+    [SerializeField] float moveSpeed = 5f;
+    [SerializeField] float jumpPower = 10f;
+    public GameObject feet;
+
+    void Awake()
+    {
+        rigidbody2d = GetComponent<Rigidbody2D>();//set rigid body on awake
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        Vector3 Move = new Vector3(Input.GetAxis("Horizontal"), 0, 0);//move left and right
+        transform.position += Move * Time.deltaTime * moveSpeed;//move by move speed
+        Jump();//call jump
+    }
+    void Jump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && feet.GetComponent<isGrounded>().grounded == true)//if pushed space and grounded
+        {
+            rigidbody2d.AddForce(new Vector2(0f, jumpPower), ForceMode2D.Impulse);// add upwords velocity
+            feet.GetComponent<isGrounded>().grounded = false;//uncheck grounded 
+        }
+    }
+
+}
+
+
+public class isGrounded : MonoBehaviour
+{
+    public bool grounded;
+
+    public void OnCollisionEnter2D(Collision2D collider)//checks if collided
+    {
+        if (collider.gameObject.tag == "Ground")//checks if collision is the ground
+        {
+            grounded = true;
+        }
+    }
+}
+
+
+public class PlayerHealthS : MonoBehaviour
+{
+    public int maxHealth = 10;
+    public int currentHealth;
+    
+    public void Awake()
+    {
+        currentHealth = maxHealth;//set health to full
+    }
+
+
+    public void takeDamage(int damage)
+    {
+        currentHealth -= damage;//increment health by the damage
+    }
+    void OnCollisionEnter2D(Collision2D collider)//check for collistion
+    {
+        if(collider.gameObject.tag == "Enemy")//if collision is an enemy
+        {
+            takeDamage(2);//take 2 damage
+        }
+    }
+}
+
+
+using UnityEngine.UI;
+
+public class HealthBar : MonoBehaviour
+{
+    public Slider slider;//get the health bar slider
+    public GameObject player;//get player
+    
+    public void SetMaxHealth(int health)
+    {
+        slider.maxValue = health;//set max slider
+        slider.value = health;// set current slider value
+    }
+    public void Update()
+    {
+        setHealth(player.GetComponent<PlayerHealthS>().currentHealth);//checks every frame if the player has lost of gained any health
+    }
+    public void setHealth(int health)
+    {
+        slider.value = health;//set the value of the slider
+    }
+}
+
+
+public class CameraController : MonoBehaviour
+{
+    [SerializeField]
+    private Transform playerCharacter;
+
+    public float leftx, rightx, bottomy, topy;
+    public void Awake()
+    {
+        // the four campera directional clamps
+        leftx = -5.5f;
+        rightx = 5.5f;
+        bottomy = -5f;
+        topy = 5f;
+    }
+
+    void Update()
+    {
+        //clamp the camera inside those position
+        transform.position = new Vector3(Mathf.Clamp(playerCharacter.position.x, leftx, rightx), Mathf.Clamp(playerCharacter.position.y, bottomy, topy), transform.position.z);
+    }
+    
+
+}
+      //garbage enemy scipt I never actually finished
+public class Walker : MonoBehaviour
+{
+    public BoxCollider2D collider;
+    public GameObject player;
+
+
+    public void Awake()
+    {
+        //i just wanted to save this code here
+        if (collider == null)
+        {
+            collider = GetComponent<BoxCollider2D>();
+
+        }
+    }
+
+    public void OnColliderEnter2D(Collider collider)
+    {
+        if (collider.gameObject.CompareTag("Player"))
+        {
+            player.GetComponent<PlayerHealthS>().currentHealth -= 1;
+        }
+    }
+}
