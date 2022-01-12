@@ -1,0 +1,247 @@
+This is where Errors, Issues, and Exceptions are logged. 
+There are Three seperate kinds off reports: RECOVERABLE, SEMI-RECOVERABLE, and NON-RECOVERABLE. 
+A RECOVERABLE is just a debug statment or a warning catch, nothing to worry about 
+A SEMI-RECOVERABLE is an accident because of malformed data or a lost file, try reloading the game and if it doesn't fix it please report it. 
+A NON-RECOVERABLE is an error that should stop the game, Please send a bug report if you find one of these!
+
+Game Started
+Game Started
+No Enemies in Range. -- RECOVERABLE --
+No Enemies in Range. -- RECOVERABLE --
+No Enemies in Range. -- RECOVERABLE --
+No Enemies in Range. -- RECOVERABLE --
+Game Started
+Could not find SaveBox:3 in Scene:Junkyard. -- SEMI-RECOVERABLE, PLEASE RELOAD THE GAME AND REPORT THIS TO THE DEVELOPERS --
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+Game Started
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+You Don't have that Weapon. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Dev Tool Activated. -- RECOVERABLE --
+Dev Tool Activated. -- RECOVERABLE --
+Dev Tool Activated. -- RECOVERABLE --
+Game Started
+Dev Tool Activated. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+Dev Tool Activated. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+No Enemies in Range. -- RECOVERABLE --
+Game Started
+Game Started
+Dev Tool Activated. -- RECOVERABLE --
+Dev Tool Activated. -- RECOVERABLE --
+Dev Tool Activated. -- RECOVERABLE --
+Dev Tool Activated. -- RECOVERABLE --
+No Enemies in Range. -- RECOVERABLE --
+Dev Tool Activated. -- RECOVERABLE --
+Dev Tool Activated. -- RECOVERABLE --
+Dev Tool Activated. -- RECOVERABLE --
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
+Game Started
